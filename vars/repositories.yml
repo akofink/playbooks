@@ -1,0 +1,14 @@
+---
+repositories:
+  - repo: https://github.com/katello/katello
+    dest: ~/dev/repos/katello
+  - repo: https://github.com/theforeman/foreman
+    dest: ~/dev/repos/foreman
+
+  - repo: https://github.com/theforeman/hammer-cli
+    dest: ~/dev/repos/hammer-cli
+  - repo: https://github.com/theforeman/hammer-cli-foreman
+    dest: ~/dev/repos/hammer-cli-foreman
+  - repo: https://github.com/theforeman/hammer-cli-katello
+    dest: ~/dev/repos/hammer-cli-katello
+...

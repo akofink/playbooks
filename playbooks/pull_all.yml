@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  tasks:
+    - include_vars:
+        file: ../vars/repositories.yml
+    - name: Pull latest
+      git:
+        repo: "{{ item.repo }}"
+        dest: "{{ item.dest }}"
+        remote: upstream
+      with_items: "{{ repositories }}"
+...
